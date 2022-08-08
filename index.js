@@ -37,7 +37,8 @@ const router = jsonServer.router(db);
 const middlewares = jsonServer.defaults();
 
 //const PORT = 3000;
-const PORT = process.env.PORT || 80;
+//const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 4000;
 
 const state = { velocity: {}, blocked: {} };
 
